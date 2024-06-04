@@ -1,0 +1,347 @@
+@media only screen and (max-width: 1024px) {
+
+    #open-menu,
+    #close-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    #close-menu {
+        position: absolute;
+        top: 2.8%;
+        right: 0;
+        margin-right: 25px;
+    }
+
+    #close-menu i {
+        font-size: 1.70rem;
+        color: var(--secondary-color);
+    }
+
+    #open-menu i {
+        font-size: 1.40rem;
+        color: var(--secondary-color);
+    }
+
+    .for-users {
+        margin-left: 290px;
+        gap: 12px;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        background-color: var(--primary-bg-color);
+        height: 100vh;
+        width: 100%;
+        z-index: 100;
+        overflow: hidden;
+        transition: 0.5s ease-in-out;
+    }
+
+    .active {
+        left: 0;
+    }
+
+    .for-users-inside {
+        display: block;
+        position: absolute;
+        top: 63%;
+        margin-left: 8px;
+        margin-top: 75px;
+        font-family: var(--primary-font-family);
+    }
+
+    .for-users-inside a {
+        height: 40px;
+        width: 100%;
+        padding: 6px 9px;
+        border-radius: 3px;
+        cursor: pointer;
+        display: inline-flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .for-users-inside .hoverfirst.always {
+        background-color: var(--secondary-color);
+        color: white;
+        border: 2px solid var(--secondary-color);
+        transition: all 0.4s ease;
+        font-weight: 500;
+    }
+
+    .for-users-inside .hoverfirst.always:hover {
+        background-color: #f2f2f2;
+        color: var(--secondary-color);
+    }
+
+    .for-users-inside .hoversecond {
+        border: 2px solid var(--secondary-color);
+        background-color: #f2f2f2;
+        color: var(--secondary-color);
+        transition: all 0.4s ease;
+        font-weight: 500;
+        margin-top: 8px;
+    }
+
+    .for-users-inside .hoversecond:hover {
+        border: 2px solid var(--secondary-color);
+        background-color: var(--secondary-color);
+        color: white;
+    }
+
+    .nav-item .special-nav-logo {
+        display: block;
+        position: absolute;
+        top: 2%;
+        left: 0;
+        margin-left: 25px;
+        font-size: 1.50rem;
+        font-family: var(--primary-font-family);
+        font-weight: 600;
+        color: var(--secondary-color);
+    }
+
+    .nav-item li .nav-links {
+        font-size: 1.50rem;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    .navbar .logo a {
+        font-size: 1.40rem;
+    }
+
+    .hero-section h1 {
+        font-size: 1.80rem;
+        max-width: 390px;
+    }
+
+    .hero-section svg {
+        width: 129px;
+        top: 53.8%;
+        right: 42%;
+    }
+
+    .head-btn {
+        top: 58%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        padding: 13px 45px;
+    }
+
+    .for-users {
+        margin-left: 231px;
+    }
+
+    .for-users .hoverfirst.always {
+        font-size: 0.9rem;
+    }
+
+    .for-users .hoversecond {
+        font-size: 0.9rem;
+    }
+
+    .nav-item li .nav-links {
+        font-size: 1.20rem;
+    }
+
+    .hero-section img {
+        display: none;
+    }
+
+    .main-card {
+        flex-direction: column;
+        height: 1245px;
+    }
+
+    .for-users-inside {
+        margin-top: 55px;
+    }
+
+    .card {
+        width: 445px;
+    }
+
+    .card-header {
+        width: 111%;
+    }
+
+    .card-header img {
+        width: 100%;
+    }
+
+    .card-footer {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-footer a {
+        width: 50%;
+    }
+
+
+    .second-last-section {
+        height: 1500px;
+    }
+
+    .whatsapp-icon i {
+        font-size: 3rem;
+    }
+
+    .hero-section h1::after {
+        width: 104px;
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .navbar {
+        padding: 19px 17px;
+    }
+
+    .for-users {
+        margin-left: 180px;
+    }
+
+    .for-users a {
+        height: 35px;
+        width: 90px;
+        padding: 6px 7px;
+    }
+
+    .for-users .hoverfirst.always {
+        font-size: 0.8rem;
+    }
+
+    .for-users .hoversecond {
+        font-size: 0.8rem;
+    }
+
+    #open-menu i {
+        font-size: 1.30rem;
+    }
+
+    .hero-section h1 {
+        width: 355px;
+    }
+
+    .hero-section h1::after {
+        width: 41%;
+        left: 66%;
+    }
+
+    .hero-section svg {
+        width: 105px;
+        top: 55.2%;
+        right: 42%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .navbar {
+        padding: 13px 21px;
+    }
+
+    .for-users a {
+        display: none;
+    }
+
+    .nav-item li .nav-links {
+        font-size: 1rem;
+    }
+
+    .hero-section h1 {
+        font-size: 1.60rem;
+        max-width: 360px;
+    }
+
+    #open-menu i {
+        font-size: 1.10rem;
+    }
+
+    .navbar .logo a {
+        font-size: 1.20rem;
+    }
+
+    .nav-item .special-nav-logo {
+        font-size: 1.20rem;
+    }
+
+    .card {
+        width: 299px;
+    }
+
+    .card-header {
+        width: 111%;
+    }
+
+    .card-header img {
+        width: 105%;
+        margin-left: -6px;
+    }
+
+    .card-footer {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-footer a {
+        width: 100%;
+    }
+
+    #close-menu i {
+        font-size: 1.20rem;
+    }
+
+    .nav-item li .nav-links {
+        font-size: 1.10rem;
+    }
+
+    .whatsapp {
+        right: 3%;
+    }
+
+    .whatsapp-icon a i {
+        font-size: 2.20rem;
+    }
+
+    .hero-section svg {
+        right: 37%;
+        top: 54.7%;
+        width: 112px;
+    }
+
+    .head-btn {
+        top: 58%;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width:390px) {
+    .navbar {
+        padding: 12px 10px;
+    }
+
+    .hero-section h1 {
+        font-size: 1.30rem;
+        max-width: 300px;
+    }
+}
